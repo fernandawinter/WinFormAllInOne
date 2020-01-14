@@ -36,6 +36,7 @@
             this.txtLastName = new System.Windows.Forms.TextBox();
             this.grbGender = new System.Windows.Forms.GroupBox();
             this.btnRegister = new System.Windows.Forms.Button();
+            this.rdbGenderOther = new System.Windows.Forms.RadioButton();
             this.grbGender.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -96,11 +97,12 @@
             // 
             // grbGender
             // 
+            this.grbGender.Controls.Add(this.rdbGenderOther);
             this.grbGender.Controls.Add(this.rdbGenderMale);
             this.grbGender.Controls.Add(this.rdbGenderFemale);
             this.grbGender.Location = new System.Drawing.Point(24, 62);
             this.grbGender.Name = "grbGender";
-            this.grbGender.Size = new System.Drawing.Size(121, 41);
+            this.grbGender.Size = new System.Drawing.Size(176, 41);
             this.grbGender.TabIndex = 8;
             this.grbGender.TabStop = false;
             this.grbGender.Text = "Gender";
@@ -114,6 +116,17 @@
             this.btnRegister.Text = "Register now";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
+            // 
+            // rdbGenderOther
+            // 
+            this.rdbGenderOther.AutoSize = true;
+            this.rdbGenderOther.Location = new System.Drawing.Point(125, 19);
+            this.rdbGenderOther.Name = "rdbGenderOther";
+            this.rdbGenderOther.Size = new System.Drawing.Size(51, 17);
+            this.rdbGenderOther.TabIndex = 4;
+            this.rdbGenderOther.TabStop = true;
+            this.rdbGenderOther.Text = "Other";
+            this.rdbGenderOther.UseVisualStyleBackColor = true;
             // 
             // NewCustomerForm
             // 
@@ -145,6 +158,7 @@
         private System.Windows.Forms.TextBox txtLastName;
         private System.Windows.Forms.GroupBox grbGender;
         private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.RadioButton rdbGenderOther;
     }
 }
 

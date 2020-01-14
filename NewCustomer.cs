@@ -32,6 +32,10 @@ namespace WinFormAllInOne
             {
                 gender = "Female";
             }
+            else
+            {
+                gender = "Other";
+            }
 
             MessageBox.Show("My name is " + firstName + " " + lastName);
             MessageBox.Show("My gender is " + gender);

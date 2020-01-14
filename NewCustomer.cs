@@ -32,7 +32,7 @@ namespace WinFormAllInOne
             {
                 gender = "Female";
             }
-            else
+            else if (rdbGenderOther.Checked)
             {
                 gender = "Other";
             }
